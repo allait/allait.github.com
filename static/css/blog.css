@@ -1,0 +1,62 @@
+div.columns {
+  margin-bottom: 1em;
+}
+
+div.nbr {
+  clear: left;
+}
+
+ol.two-column {
+  list-style-type: none;
+}
+
+.two-columns:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+li.post-name {
+  float: left;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-bottom: 1.5em;
+  padding: 1em 20px;
+}
+
+li.post-name img {
+  display: block;
+}
+
+li.post-name a {
+  font-size: 1.25em;
+  line-height: 1em;
+}
+
+li.post-name .post-date {
+  color: #CCC;
+  font-size: 0.75em;
+}
+
+li.post-name .post-punchline {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+ol.two-column li:nth-of-type(odd) {
+  margin-right: 20px;
+}
+
+hr {
+  margin: 1.5em 0px 1.5em;
+  height: 0;
+  clear: both;
+  border: solid #DDD;
+  border-width: 1px 0 0;
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #FFF;
+
+}
+
