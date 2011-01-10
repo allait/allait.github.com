@@ -9,11 +9,6 @@ html, body {
     /*-webkit-font-smoothing: antialiased;*/
 }
 
-::selection {
-  background: #8de482;
-  color: white;
-  text-shadow: none;
-}
 #page {
     background: #F0F0F0 url('/static/images/background.gif') repeat;
 }
