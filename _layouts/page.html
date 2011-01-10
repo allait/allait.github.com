@@ -1,0 +1,33 @@
+---
+layout: base
+background_id: page
+type: page
+includes:
+  js: 
+    a: 'a.js'
+    b: 'b.js'
+  css: 
+    a: 'a.css'
+    b: 'b.css'
+---
+<div id="{{ page.background_id }}">
+  <header id="header">
+    <nav id="main-navigation">
+      <h1 id="logo"><a href="/">Fueled by Lemons</a></h1>
+      <ul id="navigation-links">
+        <li><a href="/about/">About</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/projects/">Projects</a></li>
+      </ul>
+    </nav>
+    </header>
+
+  <div id="content">
+    {{ content }}
+  </div>
+</div>
+<footer id="footer">
+  <div id="footer-text">
+    <p>Times, they <a href="#">are</a> a'changing.</p>
+  </div>
+</footer>

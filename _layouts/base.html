@@ -1,0 +1,39 @@
+---
+includes:
+  css:
+    main: main.css
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}" />{% endif %}
+    {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
+    <meta name="author" content="Alexey Bezhan" />
+    <title>{{ page.title }}{% if page.type == "page" %}{% if page.title %} &middot; {% endif %}Fueled by Lemons{% endif %}</title>
+    {% for stylesheet in page.includes.css %}
+      <link rel="stylesheet" href="/static/css/{{ stylesheet[1] }}" type="text/css" media="screen" />
+    {% endfor %}
+    {% for js in page.includes.js %}
+      <script type="text/javascript" src="/js/{{ js[1] }}"></script>
+    {% endfor %}
+    <!--[if IE]>
+      <script src="/static/js/html5.js"></script><![endif]-->
+    
+    <!--Google Analytics-->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19818708-1']);
+        _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>    
+    </head>
+    <body>
+      {{ content }}
+    </body>
+</html>
