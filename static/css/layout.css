@@ -87,39 +87,6 @@ h2 {
     margin: 0 auto;
     padding: 1.5em 0;
 }
-    .post {
-  /*blog post style*/
-    }
-  .post p, .post h3, .post ul, .post ol, .post blockquote, .post img, .post pre {
-      padding-bottom: 1.5em;
-  }
-  .post p {
-      text-align: left;
-      word-spacing: 0.125em;
-  }
-  
-  .post h3 {
-      /*post title style*/
-  }
-
-  .post img {
-
-        }
-  
-  .post blockquote p {
-      padding: 0 0 0 3em;
-      font-style: italic;
-      border-left: 3px solid #373737;
-        }
-
-  .post ul {
-      list-style-position: outside;
-      list-style-type: decimal;
-        }
-  .post ol {
-      list-style-position: outside;
-      list-style-type: square;
-  }
 
 #footer {
     background-color: #0F393E;

@@ -3,8 +3,12 @@ layout: page
 includes:
   css:
     syntax: 'syntax.css'
+    blog: 'blog.css'
 ---
 <div class="post">
-  <h2>{{ page.title }} &middot; {{ page.date }}</h2>
+  <div class="post-title">
+    <h2><a href=".">{{ page.title }}</a></h2>
+    <div class="post-date">{{ page.date|date: "%d %B %Y" }}</div>
+  </div>
   {{ content }}
 </div>
