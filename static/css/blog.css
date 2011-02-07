@@ -17,7 +17,7 @@
 /*blog post style*/
 }
 
-.post p, .post h3, .post ul, .post ol, .post blockquote, .post img, .post pre {
+.post p, .post h3, .post ul, .post ol, .post blockquote, .post img {
     padding-bottom: 1.5em;
 }
 
@@ -28,7 +28,7 @@
 
 .post h3 {
     font-size: 1.25em;
-    padding: 1.5em 0 1em 0;
+    padding: 0em 0 1em 0;
 }
 
 .post img {
