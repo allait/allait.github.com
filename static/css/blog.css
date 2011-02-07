@@ -1,16 +1,16 @@
 /*Blog post title*/
-.post-title {
-
-}
-
 .post-title h2 {
-    font-size: 2em;
+    font-size: 1.5em;
+    line-height: 2em;
     text-shadow: 0 1px 1px #fff;
     outline-color: black;
+    text-align: center;
 }
 
 .post-title .post-date {
-
+  font-size: 0.75em;
+  color: #CCC;
+  text-align: center;
 }
 /*Post contents*/
 .post {
@@ -27,7 +27,8 @@
 }
 
 .post h3 {
-    /*post title style*/
+    font-size: 1.25em;
+    padding: 1.5em 0 1em 0;
 }
 
 .post img {
