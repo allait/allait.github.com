@@ -42,11 +42,13 @@
       }
 
 .post ul {
-    list-style-position: outside;
+    list-style-position: inside;
     list-style-type: decimal;
+    padding-left: 1.5em;
       }
 .post ol {
-    list-style-position: outside;
+    list-style-position: inside;
+    padding-left: 1.5em;
     list-style-type: square;
 }
 
