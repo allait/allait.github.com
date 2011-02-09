@@ -8,7 +8,20 @@ html, body {
     background-color: #0F393E;
     /*-webkit-font-smoothing: antialiased;*/
 }
+.rssbutton {
+  display: block;
+  width: 31px;
+  margin: 0px 0 0 10px;
+  height: 18px;
+  float: left;
+  background: url('/static/images/rss.png');
+  -webkit-transition-duration: 0;
+}
 
+.rssbutton:hover {
+  background: url('/static/images/rss.png') scroll 0px -18px;
+  border-bottom: none;
+}
 #page {
     background: #F0F0F0 url('/static/images/background.gif') repeat;
 }
