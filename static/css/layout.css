@@ -10,16 +10,16 @@ html, body {
 }
 .rssbutton {
   display: block;
-  width: 31px;
-  margin: 0px 0 0 10px;
-  height: 18px;
+  width: 28px;
+  margin: 3px 0 0 10px;
+  height: 16px;
   float: left;
   background: url('/static/images/rss.png');
   -webkit-transition-duration: 0;
 }
 
 .rssbutton:hover {
-  background: url('/static/images/rss.png') scroll 0px -18px;
+  background: url('/static/images/rss.png') scroll 0px -16px;
   border-bottom: none;
 }
 #page {
