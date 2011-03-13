@@ -1,14 +1,14 @@
 /*Blog post title*/
 .post-title h1 {
-    font-size: 1.5em;
-    line-height: 2em;
-    text-shadow: 0 1px 1px #fff;
-    outline-color: black;
-    text-align: center;
+  font-size: 1.5em;
+  line-height: 2em;
+  text-shadow: 0 1px 1px #fff;
+  outline-color: black;
+  text-align: center;
 }
 
 #content .post-title h1 a {
-    color: #373737;
+  color: #373737;
 }
 
 .post-title .post-date {
@@ -16,9 +16,11 @@
   color: #CCC;
   text-align: center;
 }
+
 /*Post contents*/
+
 .post {
-/*blog post style*/
+  /*blog post style*/
 }
 
 .post ul, .post ol, .post blockquote {
@@ -30,25 +32,30 @@
   padding: 10px;
   border: 1px solid #FFF;
   border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
   background: rgba(255,255,255,0.6);
   margin: 0 auto 1.5em auto;
 }
 
 .post blockquote p {
-    padding: 0 0 0 1em;
-    margin: 0 0 0 -1.2em;
-    font-style: italic;
-    border-left: 3px solid #373737;
+  padding: 0 0 0 1em;
+  margin: 0 0 0 -1.2em;
+  font-style: italic;
+  border-left: 3px solid #373737;
 }
 
 .post ul {
-    list-style-position: outside;
-    list-style-type: decimal;
-      }
+  list-style-position: outside;
+  list-style-type: decimal;
+}
+
 .post ol {
-    list-style-position: outside;
-    list-style-type: square;
+  list-style-position: outside;
+  list-style-type: square;
 }
 
 /*Blog post list*/
@@ -65,11 +72,11 @@ ol.two-column {
 }
 
 .two-columns:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 li.post-li {
