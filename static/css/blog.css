@@ -1,10 +1,14 @@
 /*Blog post title*/
-.post-title h2 {
+.post-title h1 {
     font-size: 1.5em;
     line-height: 2em;
     text-shadow: 0 1px 1px #fff;
     outline-color: black;
     text-align: center;
+}
+
+#content .post-title h1 a {
+    color: #373737;
 }
 
 .post-title .post-date {
@@ -17,7 +21,7 @@
 /*blog post style*/
 }
 
-.post p, .post h3, .post ul, .post ol, .post blockquote, .post img {
+.post p, .post h2, .post ul, .post ol, .post blockquote, .post img {
     padding-bottom: 1.5em;
 }
 
@@ -26,7 +30,7 @@
     word-spacing: 0.125em;
 }
 
-.post h3 {
+.post h2 {
     font-size: 1.25em;
     padding: 0em 0 1em 0;
 }
@@ -77,6 +81,9 @@ li.post-li {
   background-color: rgba(255, 255, 255, 0.3);
   margin-bottom: 1.5em;
   padding: 1em 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06);
 }
 
 li.post-li img {

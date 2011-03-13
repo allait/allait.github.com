@@ -42,11 +42,7 @@ a:hover {
     color: #70756f;
 }
 
-#content a:visited {
-    color: #a2a6a1;
-}
-
-h2 {
+h1 {
     font-size: 2em;
     line-height: 3em;
     text-shadow: 0 1px 1px #fff;
@@ -66,20 +62,19 @@ h2 {
 
 }
 
-    #main-navigation {
+#main-navigation {
   width: 700px;
   margin: 0 auto;
   padding: 0.75em 0;
     }
 
-      h1#logo {
-    float: left;
-    text-shadow: 0 1px 1px #fff;
-      }
+#logo {
+  float: left;
+  text-shadow: 0 1px 1px #fff;
+  font-weight: bold;
+  display: inline-block;  
+}
       
-      h1#logo a {
-    display: inline-block;  
-      }
       #navigation-links {
     float: right;
       }
@@ -114,6 +109,7 @@ h2 {
 
     #footer-text {
   width: 700px;
+  font-size: 14px;
   margin: 0 auto;
     }
 
