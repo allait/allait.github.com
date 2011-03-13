@@ -49,7 +49,17 @@ h1 {
     outline-color: black;
 }
 
+h2 {
+  font-size: 1.25em;
+  padding: 0 0 1em 0;
+  text-shadow: 0 1px 1px #fff;
+}
 
+p {
+  word-spacing: 0.125em;
+  text-align: left;
+  padding-bottom: 1.5em;
+}
 
 #header {
     height: 3em;
