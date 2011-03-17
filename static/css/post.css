@@ -21,7 +21,7 @@
 /*Post contents*/
 
 /*Whitespace between blocks*/
-.post ul, .post ol, .post blockquote {
+.post ul, .post ol {
   padding-bottom: 1.5em;
 }
 
@@ -40,9 +40,9 @@
   margin: 0 auto 1.5em auto;
 }
 
-.post blockquote p {
+#page .post blockquote p {
   padding: 0 0 0 1em;
-  margin: 0 0 0 -1.2em;
+  margin: 0 0 1.5em -1.2em;
   font-style: italic;
   border-left: 3px solid #373737;
 }
