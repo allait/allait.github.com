@@ -1,12 +1,18 @@
 /* Font sizing */
 .post pre {
-
     font-size: .8em;
+    color: #fff;
     background-color: rgba(0,0,0,0.9);
     line-height: 1.5em;
     font-family: Monaco, Consolas, Inconsolata, "Courier New", Courier, monospace;
     padding: 1em 1em;
     margin-bottom: 1.5em;
+    white-space: pre-wrap;
+}
+
+.post pre code {
+  border-style: none;
+  background: transparent;
 }
 
 .highlight .hll { background-color: #49483e }
