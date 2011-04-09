@@ -49,12 +49,18 @@
 
 .post ul {
   list-style-position: outside;
-  list-style-type: decimal;
+  list-style-type: square;
 }
 
 .post ol {
   list-style-position: outside;
-  list-style-type: square;
+  list-style-type: decimal;
+}
+
+.post code {
+  background-color: #F8F8F8;
+  padding: 0 4px;
+  border: 1px solid #DEDEDE;
 }
 
 .post hr {
