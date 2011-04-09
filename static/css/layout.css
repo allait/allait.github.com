@@ -45,6 +45,12 @@ a:hover {
   text-shadow: 0 1px 1px #fff;
 }
 
+#page h3 {
+  font-size: 1em;
+  padding: 0 0 1em 0;
+  text-shadow: 0 1px 1px #fff;
+}
+
 #page p {
   word-spacing: 0.125em;
   text-align: left;
