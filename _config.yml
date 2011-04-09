@@ -1,6 +1,6 @@
 pygments: true
+markdown: kramdown
 lsi: false
-markdown: rdiscount
 permalink: /blog/:categories/:year/:month/:day/:title
 url: http://localhost:4000
 title: "Fueled by Lemons"
