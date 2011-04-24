@@ -22,9 +22,15 @@
 
 /*Whitespace between blocks*/
 .post ul, .post ol {
+  list-style-position: outside;
   padding-bottom: 1.5em;
 }
 
+/*Zero out padding for nested elements*/
+
+.post ul ol, .post ul ul, .post ol ul, .post ol ol {
+  padding-bottom: 0;
+}
 /*Per-element styles in post*/
 .post img {
   display: block;
@@ -48,12 +54,10 @@
 }
 
 .post ul {
-  list-style-position: outside;
   list-style-type: square;
 }
 
 .post ol {
-  list-style-position: outside;
   list-style-type: decimal;
 }
 
