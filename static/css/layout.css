@@ -2,7 +2,7 @@
 
 html, body {
   font-size: 16px;
-  font-family: Palatino;
+  font-family: Palatino, Georgia, serif;
   line-height: 1.5em;
   height: 100%;
   color: #373737;
@@ -32,11 +32,14 @@ a {
   background: #F0F0F0 url('/static/images/background.gif') repeat;
 }
 
+#page h1, #page h2, #page h3 {
+  font-family: 'Myriad Pro', Helvetica, Palatino, 'Droid Serif', serif;
+}
+
 #page h1 {
   font-size: 2em;
   line-height: 3em;
   text-shadow: 0 1px 1px #fff;
-  outline-color: black;
 }
 
 #page h2 {
