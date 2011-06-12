@@ -5,17 +5,15 @@ includes:
   css:
     blog: blog.css
 ---
-
+<h2>Blog posts</h2>
 <ol class="two-column">
   {% for post in site.posts %}
     <li class="post-li">
         <a href="{{ post.id }}/">{{ post.title }}</a>
+          <span class="post-date">{{ post.date | date: "%d %B %Y"  }}</span>
         <div class="post-info">
           <span class="post-punchline">{{ post.punchline }}</span><br>
-          <span class="post-date">{{ post.date | date: "%d %B %Y"  }}</span>
         </div>
       </li>
   {% endfor %}
 </ol>
-
-<div class="nbr">&nbsp;</div>
