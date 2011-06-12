@@ -12,6 +12,15 @@
   color: #373737;
 }
 
+.post a {
+  border-bottom: 1px solid #373737;  
+}
+
+.post a:visited {
+  color: #848484;
+  border-bottom: 1px solid #848484;  
+}
+
 .post-title .post-date {
   font-size: 0.75em;
   color: #CCC;

@@ -15,13 +15,13 @@ article, nav, footer, header, section {
 
 /*Global Link colors*/
 a {
-  color: #939393;
-  border-bottom: 1px solid #F0F0F0;
+  color: #373737;
+  border-bottom: 0px solid #F0F0F0;
   -webkit-transition-duration: .33s;
-  -webkit-transition-property: all;
+  -webkit-transition-property: color;
 }
 
-a:hover {
+#page a:hover {
   color: #373737;
   border-bottom: 1px solid #34C820; 
 }
@@ -82,17 +82,18 @@ a:hover {
   display: inline-block;  
 }
 
-.rssbutton {
+#page .rssbutton {
   display: block;
   width: 28px;
   margin: 3px 0 0 10px;
   height: 16px;
   float: left;
   background: url('/static/images/rss.png');
+  border-bottom: none;
   -webkit-transition-duration: 0;
 }
 
-.rssbutton:hover {
+#page .rssbutton:hover {
   background: url('/static/images/rss.png') scroll 0px -16px;
   border-bottom: none;
 }
@@ -120,8 +121,8 @@ a:hover {
   padding: 1.5em 0;
 }
 
-#content a {
-  color: #70756f;
+footer a {
+  color: #F0F0F0;
 }
 
 /*Footer*/
