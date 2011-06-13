@@ -12,7 +12,7 @@ includes:
         <a href="{{ post.id }}/">{{ post.title }}</a>
           <span class="post-date">{{ post.date | date: "%d %B %Y"  }}</span>
         <div class="post-info">
-          <span class="post-punchline">{{ post.punchline }}</span><br>
+          <span class="post-summary">{{ post.summary }}</span><br>
         </div>
       </li>
   {% endfor %}

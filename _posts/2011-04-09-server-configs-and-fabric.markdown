@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Server configs and fabric
-punchline: Although fabric allows you to execute functions on multiple hosts at once, it lacks
+summary: Although fabric allows you to execute functions on multiple hosts at once, it lacks
     any sufficiently advanced instruments to store and apply server-specific options.
     Implementing such instrument is the main goal of this post.
 ---
