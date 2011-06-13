@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Server configs and fabric
-punchline: Making simultaneous deployments easier
+punchline: Although fabric allows you to execute functions on multiple hosts at once, it lacks
+    any sufficiently advanced instruments to store and apply server-specific options.
+    Implementing such instrument is the main goal of this post.
 ---
 
 [Fabric](http://fabfile.org/) is a deployment automation tool popular among python developers. Since
@@ -15,11 +17,6 @@ server-specific options. Implementing such instrument is the main goal of this p
 I've spent some time researching possible solutions to the following problem, however I should note
 that I could've missed some obvious and easier solution or, since this was before the release of
 fabric 1.0, such solution may have been introduced to fabric itself by the time of this writing.
-
-1. [The problem](#the-problem)
-2. [Solution in a nutshell](#solution-in-a-nutshell)
-3. [Detailed explanation](#detailed-explanation)
-4. [The whole thing](#the-whole-thing)
 
 ## The Problem
 
