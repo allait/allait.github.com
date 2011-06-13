@@ -13,8 +13,10 @@
     {% for stylesheet in page.includes.css %}
       <link rel="stylesheet" href="/static/css/{{ stylesheet[1] }}" type="text/css" media="screen" />
     {% endfor %}
-    {% for js in page.includes.js %}
-      <script type="text/javascript" src="{{ js[1] }}"></script>
+    {% for jslist in page.includes.js %}
+      {% for js in jslist[1] %}
+        <script type="text/javascript" src="{{ js }}"></script>
+      {% endfor %}
     {% endfor %}
     <!--[if IE]>
       <script src="/static/js/html5.js"></script><![endif]-->
