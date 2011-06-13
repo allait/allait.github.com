@@ -16,9 +16,9 @@ article, nav, footer, header, section {
 /*Global Link colors*/
 a {
   color: #373737;
-  border-bottom: 0px solid #F0F0F0;
+  border-bottom: 1px solid transparent;
   -webkit-transition-duration: .33s;
-  -webkit-transition-property: color;
+  -webkit-transition-property: all;
 }
 
 #page a:hover {
