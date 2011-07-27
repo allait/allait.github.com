@@ -7,12 +7,12 @@
 }
 
 .post a {
-  border-bottom: 1px solid #373737;  
+  border-bottom: 1px solid #373737;
 }
 
 .post a:visited {
   color: #848484;
-  border-bottom: 1px solid #848484;  
+  border-bottom: 1px solid #848484;
 }
 
 .post-title .post-date {
@@ -68,6 +68,10 @@
   background-color: #F8F8F8;
   padding: 0 4px;
   border: 1px solid #DEDEDE;
+}
+
+.post pre code {
+  padding: 0px;
 }
 
 .post hr {
