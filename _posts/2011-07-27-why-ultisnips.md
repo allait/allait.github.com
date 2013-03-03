@@ -26,8 +26,8 @@ repository on [launchpad][]. Installation is quite straightforward and is explai
 [script page][vimscripts].
 
 If you're using [pathogen][] and git submodules to manage your Vim plugins, there's the
-[vim-scripts github repository][vimscripts-github] and a
-[git clone of the official trunk][github-clone] by one of the UltiSnips contributors.
+[vim-scripts github repository][vimscripts-github] and
+[official github mirror][github-clone].
 
 UltiSnips is written mostly in python and therefore requires Vim compiled with python support. This
 means that it may not work where snipMate did and is expected to be somewhat slower. In practice, I
@@ -39,7 +39,7 @@ By default, UltiSnips loads `.snippets` files from `UltiSnips` directories in yo
 [vimscripts]: http://www.vim.org/scripts/script.php?script_id=2715
 [launchpad]: https://launchpad.net/ultisnips
 [vimscripts-github]: https://github.com/vim-scripts/UltiSnips
-[github-clone]: https://github.com/rygwdn/ultisnips
+[github-clone]: https://github.com/SirVer/ultisnips
 [pathogen]: http://www.vim.org/scripts/script.php?script_id=2332
 
 ## Features
