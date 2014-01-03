@@ -1,29 +1,13 @@
 /*Blog post title*/
 
-#content .post-title h1 {
-  font-size: 1.5em;
-  line-height: 2em;
+.post-date {
   text-align: center;
-}
-
-.post a {
-  border-bottom: 1px solid #373737;
-}
-
-.post a:visited {
-  color: #848484;
-  border-bottom: 1px solid #848484;
-}
-
-.post-title .post-date {
-  font-size: 0.75em;
-  color: #CCC;
-  text-align: center;
+  padding-bottom: 1.5em;
 }
 
 /*Post contents*/
 
-/*Whitespace between blocks*/
+/*Hanging punctuation*/
 .post ul, .post ol {
   list-style-position: outside;
   padding-bottom: 1.5em;
@@ -34,16 +18,18 @@
 .post ul ol, .post ul ul, .post ol ul, .post ol ol {
   padding-bottom: 0;
 }
-/*Per-element styles in post*/
+
+/*Per-element styles in posts*/
+
+.post a {
+  color: #258615;
+}
+
 .post img {
   display: block;
   padding: 10px;
   border: 1px solid #FFF;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
   box-shadow: 0 1px 4px rgba(0,0,0,0.3);
   background: rgba(255,255,255,0.6);
   margin: 0 auto 1.5em auto;
@@ -68,6 +54,10 @@
   background-color: #F8F8F8;
   padding: 0 4px;
   border: 1px solid #DEDEDE;
+}
+
+.post pre {
+  border-radius: 5px;
 }
 
 .post pre code {
