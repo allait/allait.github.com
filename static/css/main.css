@@ -131,3 +131,30 @@ footer a {
   font-size: 14px;
   margin: 0 auto;
 }
+
+/*Blog post list*/
+
+.post-list {
+  list-style-type: none;
+}
+
+.post-li {
+  width: 700px;
+  margin-bottom: 1.5em;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.post-li a {
+  font-size: 1.25em;
+  line-height: 1em;
+}
+
+.post-li .post-date {
+  color: #CCC;
+  font-size: 0.75em;
+}
+
+.post-li .post-summary {
+  font-size: 1em;
+  line-height: 1.5em;
+}
