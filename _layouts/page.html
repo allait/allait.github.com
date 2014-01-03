@@ -1,32 +1,11 @@
 ---
-layout: base
-background_id: page
-type: page
-includes:
-  css:
-    main: main.css
-  js:
-    html5: /static/js/html5.js
+layout: main
 ---
-<div id="{{ page.background_id }}">
-  <header id="header">
-    <nav id="main-navigation">
-    <a id="logo" href="/">{{ site.title }}</a>
-      <a href="http://feeds.feedburner.com/FueledByLemons" class="rssbutton">&nbsp;</a>
-      <ul id="navigation-links">
-        <li><a href="/about/">About</a></li>
-        <li><a href="/blog/">Blog</a></li>
-        <li><a href="/projects/">Projects</a></li>
-      </ul>
-    </nav>
-    </header>
 
-  <div id="content">
-    {{ content }}
-  </div>
+<div id="content-title" style="background: {{page.title_background | escape}};">
+  <h1>{{ page.title }}</h1>
 </div>
-<footer>
-  <div id="footer-text">
-    <p>Alexey Bezhan. <a href="https://github.com/allait">Github</a>, <a href="http://twitter.com/allait">Twitter</a>, <a href="mailto:al@fueledbylemons.com">email</a>.</p>
-  </div>
-</footer>
+
+<div id="content">
+  {{ content }}
+</div>

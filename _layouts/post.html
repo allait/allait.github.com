@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: main
+active: blog
 comments: true
 includes:
   css:
@@ -11,25 +12,28 @@ includes:
     jq: http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js
     poi: /static/js/poi.js
 ---
-<div class="post">
-  <div class="post-title">
-    <h1>{{ page.title }}</h1>
-    <div class="post-date">{{ page.date|date: "%d %B %Y" }}</div>
-  </div>
-  <hr>
-  {{ content }}
+<div id="content-title" style="background: {{page.title_background | escape}};">
+  <h1>{{ page.title }}</h1>
+  <div class="post-date">{% include date.html %}</div>
 </div>
+
+<div id="content">
+  <div class="post">
+    {{ content }}
+  </div>
+
   <div id="disqus_thread"></div>
 
-{% if page.comments %}
-<script type="text/javascript">
-    var disqus_shortname = 'fueledbylemons';
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-{% endif %}
+  {% if page.comments %}
+  <script type="text/javascript">
+      var disqus_shortname = 'fueledbylemons';
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  {% endif %}
+</div>

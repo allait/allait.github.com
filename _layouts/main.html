@@ -1,0 +1,30 @@
+---
+layout: base
+type: page
+includes:
+  css:
+    main: main.css
+  js:
+    html5: /static/js/html5.js
+---
+
+<div id="page">
+  <header id="header">
+    <nav id="main-navigation">
+      <a id="logo" href="/">{{ site.title | downcase }}</a>
+      <ul id="navigation-links">
+        <li {% if page.active == "about" %}class="active"{% endif %}><a href="/about/">about</a></li>
+        <li {% if page.active == "blog" %}class="active"{% endif %}><a href="/blog/">blog</a></li>
+        <li {% if page.active == "projects" %}class="active"{% endif %}><a href="/projects/">projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  {{ content }}
+</div>
+
+<footer>
+  <div id="footer-text">
+    <p>Alexey Bezhan. <a href="https://github.com/allait">Github</a>, <a href="http://twitter.com/allait">Twitter</a>, <a href="mailto:al@fueledbylemons.com">email</a>.</p>
+  </div>
+</footer>
