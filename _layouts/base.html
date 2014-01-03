@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/static/css/reset.css" type="text/css" media="screen" />
     {% for stylesheet in page.includes.css %}
-      <link rel="stylesheet" href="/static/css/{{ stylesheet[1] }}" type="text/css" media="screen" />
+      <link rel="stylesheet" href="{{ stylesheet[1] }}" type="text/css" media="screen" />
     {% endfor %}
     {% for jslist in page.includes.js %}
       {% for js in jslist[1] %}
