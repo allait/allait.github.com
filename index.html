@@ -11,11 +11,11 @@ includes:
 <ol class="post-list">
   {% for post in site.posts limit: 4 %}
     <li class="post-li">
-        <a href="{{ post.id }}/">{{ post.title }}</a>
-        <span class="post-date">{{ post.date | date: "%d %B %Y"  }}</span>
-        <div class="post-info">
-          <span class="post-summary">{{ post.summary }}</span><br>
-        </div>
-      </li>
+      <a href="{{ post.id }}/">{{ post.title }}</a>
+      <div class="post-date">{% include date.html %}</div>
+      <div class="post-info">
+        <span class="post-summary">{{ post.summary }}</span><br>
+      </div>
+    </li>
   {% endfor %}
 </ol>
