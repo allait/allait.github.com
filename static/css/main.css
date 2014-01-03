@@ -38,32 +38,29 @@ a:hover {
 }
 
 #content-title h1 {
-  font-size: 1.5em;
-  line-height: 2em;
   text-align: center;
 }
 
-
-#page h1, #page h2, #page h3 {
+#header, h1, h2, h3, .post-title {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
-#page h1 {
+h1 {
   font-size: 2em;
   line-height: 3em;
 }
 
-#page h2 {
+h2 {
   font-size: 1.5em;
   padding-bottom: 1em;
 }
 
-#page h3 {
+h3 {
   font-size: 1.25em;
   padding-bottom: 1.2em;
 }
 
-#page p {
+p {
   word-spacing: 0.125em;
   text-align: left;
   padding-bottom: 1.5em;
@@ -75,7 +72,6 @@ a:hover {
   height: 3em;
   background: #F0F0F0;
   width: 100%;
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   box-shadow: 0 3px 3px 0 rgba(0,0,0,0.1);
 }
 
