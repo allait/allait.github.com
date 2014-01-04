@@ -6,7 +6,6 @@ html, body {
   line-height: 1.5em;
   height: 100%;
   color: #373737;
-  background-color: #0F393E;
 }
 
 article, nav, footer, header, section {
@@ -28,7 +27,15 @@ a:hover {
 /*Basic Page layout elements*/
 
 #page {
+  min-height: 100%;
   background: #FFFFFF;
+  margin-bottom: -8em;
+}
+
+#page:after {
+  content: "";
+  display: block;
+  height: 8em;
 }
 
 #content-title {
