@@ -1,6 +1,11 @@
-pygments: true
-markdown: kramdown
-lsi: false
-permalink: /blog/:categories/:year/:month/:day/:title
-url: http://fueledbylemons.com
 title: "Fueled by Lemons"
+url: http://fueledbylemons.com
+
+permalink: /blog/:categories/:year/:month/:day/:title
+pygments: true
+lsi: false
+
+markdown: kramdown
+kramdown:
+    auto_ids: true
+    toc_levels: 2..6

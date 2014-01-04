@@ -18,6 +18,9 @@ I've spent some time researching possible solutions to the following problem, ho
 that I could've missed some obvious and easier solution or, since this was before the release of
 fabric 1.0, such solution may have been introduced to fabric itself by the time of this writing.
 
+* TOC
+{:toc}
+
 ## The Problem
 
 Suppose we have three projects: ProjectA, ProjectB and ProjectC deployed on three corresponding

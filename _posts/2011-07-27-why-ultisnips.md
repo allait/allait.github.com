@@ -19,6 +19,9 @@ the way, but may really come in handy when you need them.
 UltiSnips is a Vim plugin that, while being as easy to use as snipMate, is much more feature
 rich and, along with many unique features, implements everything listed above.
 
+* TOC
+{:toc}
+
 ## Getting UltiSnips
 
 You can download UltiSnips from the [Vim website][vimscripts] or the official bzr
