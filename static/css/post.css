@@ -50,25 +50,31 @@
   list-style-type: decimal;
 }
 
-.post code {
-  background-color: #F8F8F8;
-  padding: 0 4px;
-  border: 1px solid #DEDEDE;
+.post pre, .post code {
+  font-size: 14px;
+  font-family: Menlo, Monaco, Consolas, Inconsolata, monospace;
 }
 
 .post pre {
-  border-radius: 5px;
+  background-color: #f8f8f8;
+  border: 1px solid #dedede;
+  line-height: 1.5em;
+  padding: 1em 1em;
+  margin-bottom: 1.5em;
+  overflow-x: auto;
 }
 
-.post pre code {
-  padding: 0px;
+.post p > code {
+  background-color: #F8F8F8;
+  padding: 0 4px;
+  border: 1px solid #DEDEDE;
 }
 
 .post hr {
   margin: 1.5em 0 1.5em;
   height: 0;
   clear: both;
-  border: solid #DDD;
+  border: solid #ddd;
   border-width: 1px 0 0;
   border-top: 1px solid #DDD;
   border-bottom: 1px solid #FFF;
