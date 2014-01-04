@@ -3,6 +3,7 @@
 html, body {
   font-size: 18px;
   font-family: 'PT Serif', Palatino, Georgia, serif;
+  text-rendering: optimizeLegibility;
   line-height: 1.5em;
   height: 100%;
   color: #373737;
@@ -83,7 +84,7 @@ p {
 }
 
 #main-navigation {
-  width: 700px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0.75em 0;
 }
@@ -112,7 +113,7 @@ p {
 /*Page content block*/
 
 #content {
-  width: 700px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 1.5em 0;
 }
@@ -134,7 +135,7 @@ footer a {
 
 
 #footer-text {
-  width: 700px;
+  max-width: 700px;
   font-size: 14px;
   margin: 0 auto;
 }
@@ -146,7 +147,6 @@ footer a {
 }
 
 .post-li {
-  width: 700px;
   margin-bottom: 1.5em;
   background-color: rgba(255, 255, 255, 0.3);
 }
