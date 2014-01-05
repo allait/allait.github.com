@@ -22,8 +22,10 @@
     {% endfor %}
     <script type="text/javascript">
       var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-21642657-1']);
-        _gaq.push(['_trackPageview']);
+      _gaq.push(['_setAccount', 'UA-21642657-1']);
+      _gaq.push(['_trackPageview']);
+
+      setTimeout(function () {_gaq.push(['_trackEvent', '15_seconds', 'read'])}, 15000);
 
       (function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
